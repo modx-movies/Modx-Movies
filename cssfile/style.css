@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(229, 9,20);
+    font-style: Bungee Spice;
+}
+header {
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color: rgb(44, 37, 37);
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(0, 0, 0);
+}
+
+section {
+    min-height: 20vh;
+}
+
+video {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+}
+iframe {
+    height: 33vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 50px;
+}
+
+footer {
+    background-color: rgb(25, 24, 24);
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
